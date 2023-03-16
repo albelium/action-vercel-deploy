@@ -1,0 +1,14 @@
+name: 'Deploy to Vercel'
+description: 'A GitHub Action to deploy to Vercel'
+author: 'Ryo Takeuchi (https://github.com/tatsutakein) and Albelium'
+branding:
+  icon: "globe"
+  color: "blue"
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+inputs:
+  milliseconds: # change this
+    required: true
+    description: 'input description here'
+    default: 'default value if applicable'
