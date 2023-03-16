@@ -1,3 +1,5 @@
+[![build-test](https://github.com/albelium/action-vercel-deploy/actions/workflows/test.yml/badge.svg)](https://github.com/albelium/action-vercel-deploy/actions/workflows/test.yml)
+
 # Vercel GitHub Action
 
 Vercel へのデプロイを GitHub Actions で行うためのアクションです。
